@@ -47,8 +47,8 @@ weather_button.pack(pady= 20)
 weather_label = Label(window, text= "The Weather is:", font="Helvetica 12 bold")
 weather_label.pack(pady=10)
 
-info_text = Text(window, width=50, height=10)
-info_text.pack()
+info_text = Text(window, font="Helvetica 20 normal", width=50, height=10)
+info_text.pack(pady=10, padx=10)
 
 
 window.mainloop()
